@@ -6,9 +6,9 @@
 
 03. Abrir arquivo no VSCode: 'code nome-arquivo.extensão'
 
-04. Copiar arquivo para outro diretório: 'cp nome-arquivo diretório-destino'
+04. Copiar arquivo para outro diretório: 'cp nome-arquivo.extensão diretório-destino'
 
-05. Mover arquivo para outro diretório: 'mv nome-arquivo diretório-destino'
+05. Mover arquivo para outro diretório: 'mv nome-arquivo.extensão diretório-destino'
 
-
+06. Ler conteúdo de arquivo: 'cat nome-arquivo.extensão'
 
