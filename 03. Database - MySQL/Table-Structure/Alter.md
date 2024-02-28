@@ -26,3 +26,18 @@ Acima se está adicionando uma coluna à tabela.
 Este é o comando para basicamente deletar algo da tabela, como uma coluna por exemplo.
 
 * ALTER TABLE tableName DROP COLUMN columnName;
+
+## CHANGE
+
+É possível trocar o nome de uma coluna usando o comando CHANGE.
+Exemnplo: 
+
+* ALTER TABLE tableName CHANGE columnName newColumnName tipoDado;
+
+## RENAME
+
+Também é possível mudar o nome de uma tabela usando o comando RENAME.
+Exemplo:
+
+* ALTER TABLE tableName RENAME newTableName;
+
