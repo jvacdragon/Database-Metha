@@ -3,14 +3,10 @@
 Um TRIGGER é usado para disparar uma função ou procedure sempre que uma determinada ação ocorrer no bando de dados.
 Como criar: 
 
-CREATE TRIGGER triggerName
-TRIGGER TYPE
-ON tableName FOR EACH ROW
-BEGIN
-    statementOne
-    statementTwo
-    ...
-END
+CREATE TRIGGER trigger_name
+{BEFORE | AFTER} {INSERT | UPDATE| DELETE}
+ON table_name FOR EACH ROW
+trigger_body;
 
 Para deletar um TRIGGER a query é:
 DROP TRIGGER IF EXISTS schemaName.triggerName;
